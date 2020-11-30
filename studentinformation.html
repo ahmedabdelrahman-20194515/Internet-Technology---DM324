@@ -1,69 +1,81 @@
-<html>
-  <head> 
-        <title>Internet Technology</title>
-  </head>             
-    <body>   
-        <!-- nav-->
-<a href=index.html> Home </a>
-<a href=studentlist.html> student list</a>
-<a href=#> New student</a>
-<a href="studentinfo.html "> studentinfo.html </a>
-
-        <!-- nav-->
-        <!-- form --> 
-  <fieldset>
-      <legend>Personal Information</legend>
-        <form>
-            <p>
-                <label>
-                    name:
-                    <input type = "text">
-                </label>
-            </p>
-            <p>
-                <label>
-                    birhday:
-                    <input type="date">
-                
-                </label>
-            </p>
-            <p>
-                <label>
-                    gender:
-                    <input type="radio" name="gender" value="m">
-                    male
-                    <input type="radio" name="gender" value="f">
-                    female
-                </label>
-            </p>
-            <p>
-                <label>
-                    adress:
-                    <textarea row="8" cols=15></textarea>
-                </label>
-            </p>
-            <p>
-                <label>
-                    choose you major
-                    <select>
-                        <option value="cs">cs</option>
-                        <option value="is">is</option>
-                        <option value="dm">dm</option>
-                    </select>
-                </label>
-            </p>
+<HTML>
+    <head>
+<title> Internet Technology </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--Nav-->
+        <nav>
             
-                <input type="submit"
-            
-        </form>
+            <ul>  
+<li> <a href=index.html > Home </a> </li>
+<li><a href=StudentList.html > Student List </a> </li>
+<li><a href=# class="activeee"> New Student </a> </li>
+</ul>
+</nav>    
+<hr/>
+<!--Nav-->
+<!-- Body --> 
 
-       
+<form>
+<fieldset>
+<legend>Personal Information</legend>
 
-        <!--footer-->
-     <footer>  
-        <a href= https://www.fue.edu.eg target =_Blank>&copy;future univeristy </a>
-        <a href= mailto: 20194515@fue.edu.eg> contact us</a>
-      </footer> 
-  </fieldset> 
-    </body>            
-</html>
+<p>
+<label>
+Full Name: 
+<input type="text" name="txtFullName" required> 
+
+</label>
+</p>
+<p> 
+<label>
+Birthdate: 
+<input type="date" name="txtBirthDate">
+
+</label>
+</p>
+<p>
+<label>
+Gender: 
+<input type="radio" name="gender" value="male">
+Male
+<input type="radio" name="gender" value="female">
+Female
+</label>
+</p>
+
+<p>
+<label>
+Address:
+<textarea rows="5" cols="50" name="txtAddress"></textarea>
+</label>
+</p>
+
+
+
+<p><label>
+ Choose your major
+            <select>
+                <option value="cs">CS</option>
+                <option value="is">IS</option>
+                <option value="dm">DM</option>
+            </select>
+
+</select>
+</label></p>
+
+
+<input type="submit">
+
+</form>
+</fieldset>
+    </body>
+    <!--Body -->
+    <!-- Footer-->
+        <footer>
+<a href=https://www.fue.edu.eg/ target=_Blank > &copy; Future University </a>
+<a href=mailto: 20194515@fue.edu.eg > Contact us </a>
+        </footer>
+        <!-- Footer -->
+</HTML>
